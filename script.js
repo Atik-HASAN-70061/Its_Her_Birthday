@@ -447,7 +447,7 @@ function createPhotoCard(index) {
   );
 
   const img = document.createElement("img");
-  img.src = `images/photo${index + 1}.jpg`;
+  img.src = `photo${index + 1}.jpg`;
   img.alt = `Jannat photo ${index + 1}`;
   img.loading = index < 4 ? "eager" : "lazy";
   img.decoding = "async";
